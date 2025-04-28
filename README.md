@@ -12,6 +12,7 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 7.	Continue the loop until you have iterated through all numbers from M to N.
 
 ## PROGRAM:
+```
 #include<stdio.h>
 int main()
 {
@@ -27,6 +28,7 @@ int main()
  
     return 0;
 }
+```
 ## OUTPUT:
 ![437949933-ad774f56-2dc6-45d7-bdc3-1776af74d98c](https://github.com/user-attachments/assets/d9b390ae-670e-4347-9a40-00363b7d7507)
 
@@ -59,6 +61,7 @@ Write a C program to print the given triangular pattern using loop.
 5.	Continue the loop until you have printed the entire triangular pattern.
 
 ## PROGRAM:
+```
 #include<stdio.h>
 int main()
 {
@@ -73,7 +76,7 @@ int main()
         printf("\n");
     }
 }
-
+```
 
 ## OUTPUT:
 ![437951096-5b550f74-d6d0-487b-8a61-947b2f0a84cc](https://github.com/user-attachments/assets/49487b0b-9834-459f-b30a-13d896438824)
@@ -103,6 +106,7 @@ Write a C program to perform addition and subtraction of two numbers using funct
 4.	Call the addition and subtraction functions, passing the two numbers as arguments.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 void add(int a, int b) {
     int sum = a + b;
@@ -123,7 +127,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 ## OUTPUT:
 ![437950737-42a4b717-5353-4627-a471-c06073ca7446](https://github.com/user-attachments/assets/46b377ca-49da-4b0d-878c-236e2781d570)
@@ -156,6 +160,7 @@ Write a c program to find the sum of odd digits using for loop
 6.	Print the sum of odd digits.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 int main()
 {
@@ -173,7 +178,7 @@ int main()
    printf("\n");
    printf("%d",sum);
 }
-   
+``` 
 
 ## OUTPUT:
 ![437949632-673b2e8d-1fce-417f-ad41-ebe6175d8449](https://github.com/user-attachments/assets/7f96f355-7f06-4c38-a0be-ef58ae82b2f3)
@@ -204,6 +209,7 @@ d.	After the loop, print the factorial value.
 5.	End
 
 ## PROGRAM:
+```
 #include<stdio.h>
 void fact()
 {
@@ -220,7 +226,7 @@ int main()
 {
     fact();
 }
-
+```
 ## OUTPUT:
 ![437950536-f5f3f639-d99d-46dd-ae65-27f409435336](https://github.com/user-attachments/assets/f9a9aa10-1bef-4613-a8c8-ca7dc35f3beb)
 
